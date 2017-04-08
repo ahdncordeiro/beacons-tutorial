@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DD8BDE1E996A1500591BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD8BDD1E996A1500591BD5 /* AppDelegate.swift */; };
+		A1DD8BE01E996A1500591BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD8BDF1E996A1500591BD5 /* ViewController.swift */; };
+		A1DD8BE31E996A1500591BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DD8BE11E996A1500591BD5 /* Main.storyboard */; };
+		A1DD8BE61E996A1500591BD5 /* ios_estimote_sdk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1DD8BE41E996A1500591BD5 /* ios_estimote_sdk.xcdatamodeld */; };
+		A1DD8BE81E996A1500591BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DD8BE71E996A1500591BD5 /* Assets.xcassets */; };
+		A1DD8BEB1E996A1500591BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DD8BE91E996A1500591BD5 /* LaunchScreen.storyboard */; };
+		A1DD8BF61E996A1500591BD5 /* ios_estimote_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD8BF51E996A1500591BD5 /* ios_estimote_sdkTests.swift */; };
+		A1DD8C011E996A1500591BD5 /* ios_estimote_sdkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DD8C001E996A1500591BD5 /* ios_estimote_sdkUITests.swift */; };
+		A1DD8C0F1E996EAE00591BD5 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DD8C0E1E996EAE00591BD5 /* EstimoteSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1DD8BF21E996A1500591BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1DD8BD21E996A1500591BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1DD8BD91E996A1500591BD5;
+			remoteInfo = "ios-estimote-sdk";
+		};
+		A1DD8BFD1E996A1500591BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1DD8BD21E996A1500591BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1DD8BD91E996A1500591BD5;
+			remoteInfo = "ios-estimote-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1DD8BDA1E996A1500591BD5 /* ios-estimote-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-estimote-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD8BDD1E996A1500591BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1DD8BDF1E996A1500591BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1DD8BE21E996A1500591BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1DD8BE51E996A1500591BD5 /* ios_estimote_sdk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_estimote_sdk.xcdatamodel; sourceTree = "<group>"; };
+		A1DD8BE71E996A1500591BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1DD8BEA1E996A1500591BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1DD8BEC1E996A1500591BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD8BF11E996A1500591BD5 /* ios-estimote-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-estimote-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD8BF51E996A1500591BD5 /* ios_estimote_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_estimote_sdkTests.swift; sourceTree = "<group>"; };
+		A1DD8BF71E996A1500591BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD8BFC1E996A1500591BD5 /* ios-estimote-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-estimote-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD8C001E996A1500591BD5 /* ios_estimote_sdkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_estimote_sdkUITests.swift; sourceTree = "<group>"; };
+		A1DD8C021E996A1500591BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD8C0E1E996EAE00591BD5 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		A1DD8C111E996F6800591BD5 /* ObjCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1DD8BD71E996A1500591BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD8C0F1E996EAE00591BD5 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BEE1E996A1500591BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BF91E996A1500591BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1DD8BD11E996A1500591BD5 = {
+			isa = PBXGroup;
+			children = (
+				A1DD8BDC1E996A1500591BD5 /* ios-estimote-sdk */,
+				A1DD8BF41E996A1500591BD5 /* ios-estimote-sdkTests */,
+				A1DD8BFF1E996A1500591BD5 /* ios-estimote-sdkUITests */,
+				A1DD8BDB1E996A1500591BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DD8BDB1E996A1500591BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD8BDA1E996A1500591BD5 /* ios-estimote-sdk.app */,
+				A1DD8BF11E996A1500591BD5 /* ios-estimote-sdkTests.xctest */,
+				A1DD8BFC1E996A1500591BD5 /* ios-estimote-sdkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DD8BDC1E996A1500591BD5 /* ios-estimote-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD8C0E1E996EAE00591BD5 /* EstimoteSDK.framework */,
+				A1DD8BDD1E996A1500591BD5 /* AppDelegate.swift */,
+				A1DD8BDF1E996A1500591BD5 /* ViewController.swift */,
+				A1DD8BE11E996A1500591BD5 /* Main.storyboard */,
+				A1DD8BE71E996A1500591BD5 /* Assets.xcassets */,
+				A1DD8BE91E996A1500591BD5 /* LaunchScreen.storyboard */,
+				A1DD8BEC1E996A1500591BD5 /* Info.plist */,
+				A1DD8BE41E996A1500591BD5 /* ios_estimote_sdk.xcdatamodeld */,
+				A1DD8C111E996F6800591BD5 /* ObjCBridge.h */,
+			);
+			path = "ios-estimote-sdk";
+			sourceTree = "<group>";
+		};
+		A1DD8BF41E996A1500591BD5 /* ios-estimote-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD8BF51E996A1500591BD5 /* ios_estimote_sdkTests.swift */,
+				A1DD8BF71E996A1500591BD5 /* Info.plist */,
+			);
+			path = "ios-estimote-sdkTests";
+			sourceTree = "<group>";
+		};
+		A1DD8BFF1E996A1500591BD5 /* ios-estimote-sdkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1DD8C001E996A1500591BD5 /* ios_estimote_sdkUITests.swift */,
+				A1DD8C021E996A1500591BD5 /* Info.plist */,
+			);
+			path = "ios-estimote-sdkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1DD8BD91E996A1500591BD5 /* ios-estimote-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD8C051E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdk" */;
+			buildPhases = (
+				A1DD8BD61E996A1500591BD5 /* Sources */,
+				A1DD8BD71E996A1500591BD5 /* Frameworks */,
+				A1DD8BD81E996A1500591BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-estimote-sdk";
+			productName = "ios-estimote-sdk";
+			productReference = A1DD8BDA1E996A1500591BD5 /* ios-estimote-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1DD8BF01E996A1500591BD5 /* ios-estimote-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD8C081E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdkTests" */;
+			buildPhases = (
+				A1DD8BED1E996A1500591BD5 /* Sources */,
+				A1DD8BEE1E996A1500591BD5 /* Frameworks */,
+				A1DD8BEF1E996A1500591BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1DD8BF31E996A1500591BD5 /* PBXTargetDependency */,
+			);
+			name = "ios-estimote-sdkTests";
+			productName = "ios-estimote-sdkTests";
+			productReference = A1DD8BF11E996A1500591BD5 /* ios-estimote-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1DD8BFB1E996A1500591BD5 /* ios-estimote-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DD8C0B1E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdkUITests" */;
+			buildPhases = (
+				A1DD8BF81E996A1500591BD5 /* Sources */,
+				A1DD8BF91E996A1500591BD5 /* Frameworks */,
+				A1DD8BFA1E996A1500591BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1DD8BFE1E996A1500591BD5 /* PBXTargetDependency */,
+			);
+			name = "ios-estimote-sdkUITests";
+			productName = "ios-estimote-sdkUITests";
+			productReference = A1DD8BFC1E996A1500591BD5 /* ios-estimote-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1DD8BD21E996A1500591BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "André Henrique Dantas Neves Cordeiro";
+				TargetAttributes = {
+					A1DD8BD91E996A1500591BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					A1DD8BF01E996A1500591BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1DD8BD91E996A1500591BD5;
+					};
+					A1DD8BFB1E996A1500591BD5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1DD8BD91E996A1500591BD5;
+					};
+				};
+			};
+			buildConfigurationList = A1DD8BD51E996A1500591BD5 /* Build configuration list for PBXProject "ios-estimote-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1DD8BD11E996A1500591BD5;
+			productRefGroup = A1DD8BDB1E996A1500591BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DD8BD91E996A1500591BD5 /* ios-estimote-sdk */,
+				A1DD8BF01E996A1500591BD5 /* ios-estimote-sdkTests */,
+				A1DD8BFB1E996A1500591BD5 /* ios-estimote-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1DD8BD81E996A1500591BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD8BEB1E996A1500591BD5 /* LaunchScreen.storyboard in Resources */,
+				A1DD8BE81E996A1500591BD5 /* Assets.xcassets in Resources */,
+				A1DD8BE31E996A1500591BD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BEF1E996A1500591BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BFA1E996A1500591BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DD8BD61E996A1500591BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD8BE01E996A1500591BD5 /* ViewController.swift in Sources */,
+				A1DD8BDE1E996A1500591BD5 /* AppDelegate.swift in Sources */,
+				A1DD8BE61E996A1500591BD5 /* ios_estimote_sdk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BED1E996A1500591BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD8BF61E996A1500591BD5 /* ios_estimote_sdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DD8BF81E996A1500591BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DD8C011E996A1500591BD5 /* ios_estimote_sdkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1DD8BF31E996A1500591BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1DD8BD91E996A1500591BD5 /* ios-estimote-sdk */;
+			targetProxy = A1DD8BF21E996A1500591BD5 /* PBXContainerItemProxy */;
+		};
+		A1DD8BFE1E996A1500591BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1DD8BD91E996A1500591BD5 /* ios-estimote-sdk */;
+			targetProxy = A1DD8BFD1E996A1500591BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1DD8BE11E996A1500591BD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DD8BE21E996A1500591BD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1DD8BE91E996A1500591BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DD8BEA1E996A1500591BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1DD8C031E996A1500591BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1DD8C041E996A1500591BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DD8C061E996A1500591BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-estimote-sdk",
+				);
+				INFOPLIST_FILE = "ios-estimote-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1DD8C071E996A1500591BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-estimote-sdk",
+				);
+				INFOPLIST_FILE = "ios-estimote-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A1DD8C091E996A1500591BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-estimote-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-estimote-sdk.app/ios-estimote-sdk";
+			};
+			name = Debug;
+		};
+		A1DD8C0A1E996A1500591BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-estimote-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-estimote-sdk.app/ios-estimote-sdk";
+			};
+			name = Release;
+		};
+		A1DD8C0C1E996A1500591BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-estimote-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-estimote-sdk";
+			};
+			name = Debug;
+		};
+		A1DD8C0D1E996A1500591BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-estimote-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.andrecordeiro.ios-estimote-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-estimote-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1DD8BD51E996A1500591BD5 /* Build configuration list for PBXProject "ios-estimote-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD8C031E996A1500591BD5 /* Debug */,
+				A1DD8C041E996A1500591BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD8C051E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD8C061E996A1500591BD5 /* Debug */,
+				A1DD8C071E996A1500591BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD8C081E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD8C091E996A1500591BD5 /* Debug */,
+				A1DD8C0A1E996A1500591BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DD8C0B1E996A1500591BD5 /* Build configuration list for PBXNativeTarget "ios-estimote-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DD8C0C1E996A1500591BD5 /* Debug */,
+				A1DD8C0D1E996A1500591BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1DD8BE41E996A1500591BD5 /* ios_estimote_sdk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1DD8BE51E996A1500591BD5 /* ios_estimote_sdk.xcdatamodel */,
+			);
+			currentVersion = A1DD8BE51E996A1500591BD5 /* ios_estimote_sdk.xcdatamodel */;
+			path = ios_estimote_sdk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1DD8BD21E996A1500591BD5 /* Project object */;
+}
